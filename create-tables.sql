@@ -1,11 +1,7 @@
 CREATE
 USER jet;
 
-CREATE
-DATABASE pet_store;
-
-GRANT ALL PRIVILEGES ON DATABASE
-pet_store TO jet;
+CREATE DATABASE pet_store;
 
 \c pet_store;
 
