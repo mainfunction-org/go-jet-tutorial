@@ -64,3 +64,10 @@ CREATE TABLE orders
     complete BOOLEAN DEFAULT false,
     created_at TIMESTAMP DEFAULT NOW()
 );
+
+-- Pre-populate tables with data
+
+INSERT INTO pets (id, name) VALUES
+    (1, 'Balu'),
+    (2, 'Carlos'),
+    (3, 'Rook');
