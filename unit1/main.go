@@ -18,7 +18,7 @@ func main() {
 		panic(err.Error())
 	}
 
-	for _, pet := range petItems {
-		fmt.Printf("%#v \n", pet)
+	for _, item := range petItems {
+		fmt.Printf("%#v \n", item)
 	}
 }

@@ -1,6 +1,8 @@
-GO-JET TUTORIAL. UNIT 1
+UNIT 1. SELECT QUERIES
 
-+ Select pets
++ Select pets 
++ Select pets with sorting by status
++ 
 
  
  
