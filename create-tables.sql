@@ -67,7 +67,9 @@ CREATE TABLE orders
 
 -- Pre-populate tables with data
 
-INSERT INTO pets (id, name) VALUES
-    (1, 'Balu'),
-    (2, 'Carlos'),
-    (3, 'Rook');
+INSERT INTO pets (id, name, status) VALUES
+    (1, 'Balu', 'available'),
+    (2, 'Carlos', 'available'),
+    (3, 'Rook', 'sold');
+
+SELECT setval('pets_id_seq', (SELECT MAX(id) FROM pets));

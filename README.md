@@ -24,11 +24,13 @@ jet -source=postgres -dsn="user=postgres password=postgres host=localhost port=1
 ```
 
 
-### UNIT 1: Simple select queries 
+### UNIT 1: Simple queries 
 
 + Select pets. 
-+ Select a pet by ID, by Name.
++ Select a pet by ID.
 + Select only available pets. 
++ Insert new pet
++ Update pet status
 
 
 ### UNIT 2: Joins and unions
